@@ -12,7 +12,7 @@ YUI.add('squarespace-ajaxifier', function(Y) {
         linkSelector: anchors
       });
 
-      this.$wrapper = Y.one(this.get('wrapper'));
+      this.$wrapper = Y.one(wrapper);
 
       this.pjax.on('navigate', this._loading,     this);
       this.pjax.on('load',     this._initContent, this);
