@@ -3,7 +3,6 @@ YUI.add('squarespace-ajaxifier', function(Y) {
 
     initializer: function() {
       var wrapper = this.get('wrapper');
-      var inner = this.get('inner');
       var anchors = this.get('anchors');
 
       this.pjax = new Y.Pjax({
