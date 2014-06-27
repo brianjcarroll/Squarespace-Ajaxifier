@@ -1,7 +1,6 @@
 YUI.add('squarespace-ajaxifier', function(Y) {
   Y.namespace('Squarespace').Ajaxifier = Y.Base.create('Ajaxifier', Y.Base, [], {
 
-
     initializer: function() {
       var wrapper = this.get('wrapper');
       var inner = this.get('inner');
@@ -18,11 +17,9 @@ YUI.add('squarespace-ajaxifier', function(Y) {
       this.pjax.on('load',     this._initContent, this);
     },
 
-
     _loading: function () {
       this.$wrapper.addClass('loading');
     },
-
 
     _initContent: function (response) {
       var delay = this.get('delay') < 50 ? 50 : this.get('delay');
@@ -52,7 +49,6 @@ YUI.add('squarespace-ajaxifier', function(Y) {
         this.$wrapper.removeClass('loading');
       });
     }
-
 
   }, {
     ATTRS: {
