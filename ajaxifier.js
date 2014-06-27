@@ -63,7 +63,7 @@ YUI.add('squarespace-ajaxifier', function(Y) {
         value: 'a'
       },
       delay: {
-        value: 0 // Time in ms
+        value: 0 // Time in ms.
       }
     }
   });
