@@ -12,4 +12,4 @@ Ajax for Squarespace.
         delay: '300'
       });
     });
-  </script>
+  </script> 
