@@ -3,6 +3,7 @@ Squarespace-Ajaxifier
 
 Ajax for Squarespace.
 
+  <code><pre>
   <squarespace:script src="ajaxifier.js" />
   <script>
     YUI().use('squarespace-ajaxifier', function(Y) {
@@ -13,3 +14,4 @@ Ajax for Squarespace.
       });
     });
   </script> 
+  <code><pre>
